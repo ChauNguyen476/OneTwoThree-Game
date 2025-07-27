@@ -5,20 +5,19 @@ body {
 }
 section {
   position: fixed;
-  /*top-left point be centered */
+  /*top-left point be centered 
   top: 50%; 
   left: 50%;
-  /*adjust center of section compares to own size*/
-  translate: -50% -50%; 
+  /*adjust center of section compares to own size
+  translate: -50% -50%; */
   border: 1px dashed yellow;
   padding: 0px 0px 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
-}
+  }
 .title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 .move-icon {
@@ -27,19 +26,19 @@ section {
 .move-button {
   background-color: transparent;
   border: 3px dashed white;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
   margin-right: 10px;
   cursor: pointer;
 }
 .result {
   font-size: 25px;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .score {
-  margin-top: 60px;
+  margin-top: 15px;
   }
 .reset-score-button {
   background-color: rgb(25, 25, 25);
